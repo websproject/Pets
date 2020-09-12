@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Carousel Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./assets/dist/css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""
+                    loading="lazy">
+                PETS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/img3.jpg" class="d-block img-fluid" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>El cuidado mas especial para tus peluditos.</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Reservar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/img2.jpg" class="d-block img-fluid" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>El cuidado mas especial para tus peluditos.</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Reservar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/img1.jpg" class="d-block img-fluid" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>El cuidado mas especial para tus peluditos.</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Reservar</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/img5.jpg" class="card-img-top img-fluid" alt="..." height="100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Gatos</h5>
+                            <p class="card-text"> Los gatos son muy cariñosos y tienen un gran carácter, pero también
+                                valoramos su independencia</p>
+                            <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/img6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Perros</h5>
+                            <p class="card-text">Se dice, y es totalmente cierto, que los perros devuelven el amor que
+                                se les da multiplicado por diez.</p>
+                            <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/img7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hámsters</h5>
+                            <p class="card-text">Estos roedores son tiernos, divertidos y fáciles de cuidar, porque
+                                necesitan poco espacio y no demandan mucho tiempo.</p>
+                            <a href="#" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <hr class="featurette-divider">
+        </div><!-- /.container -->
+
+        <!-- START THE FEATURETTES -->
+
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Nuestros Servicios</h1>
+            </div>
+        </div>
+
+        <div class="container marketing">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Veterinaria. </h2>
+                    <p class="lead">Tu mascota es única para ti, y también lo es para nosotros. Personalizamos nuestros
+                        planes de salud según sus necesidades. Los cuidados preventivos y la detección precoz es la
+                        mejor manera de evitar y detectar las enfermedades.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="./assets/img/img8.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Adopcion. </h2>
+                    <p class="lead">La adopción es una alternativa que a la hora de adquirir un animal de compañía
+                        beneficia a todos: a la familia, a las entidades de protección animal y, por supuesto, al propio
+                        perro o gato. Los adoptantes han manifestado que su motivo principal para hacerlo fue su
+                        sensibilización con el problema (38%) y para colaborar con la protectora (23%)..</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="./assets/img/img9.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Cuidado. </h2>
+                    <p class="lead">La relación con tu mascota es única y especial. Nosotros te ayudamos a mantenerla y
+                        fortalecerla. Al entender las expresiones de tu mascota y aprender que le motiva, podras
+                        conectar con ella a un nuevo nivel y construir una relación de confianza.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="./assets/img/img10.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+        </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Nuestros Precios</h1>
+            </div>
+        </div>
+
+        <div class="container marketing">
+            <div class="card-deck mb-3 text-center container">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Gratis</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>1 mascota incluida</li>
+                            <li>2 paseos mensuales</li>
+                            <li>1 visita al veterinario</li>
+                            <li>centro de ayuda disponible</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Empezar gratis</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Sencillo</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 mascota incluida</li>
+                            <li>5 paseos mensuales</li>
+                            <li>5 visita al veterinario</li>
+                            <li>centro de ayuda disponible</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Empezar</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Especial</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>5 mascota incluida</li>
+                            <li>10 paseos mensuales</li>
+                            <li>10 visita al veterinario</li>
+                            <li>centro de ayuda disponible</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Empezar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- /END THE FEATURETTES -->
+
+
+
+
+        <!-- FOOTER -->
+
+    </main>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top container ">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="./assets/img/logo.png" alt="" width="50" height="50">
+                <small class="d-block mb-3 text-muted">Copyright &copy; 2020 Todos los derechos reservados</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Nuestros Datos</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Calle 57 A # 38-06 Cali-Colombia</a></li>
+                    <li><a class="text-muted" href="#"> +123 456 7891
+                        </a></li>
+                    <li><a class="text-muted" href="#"> pets@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Navega</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Inicio</a></li>
+                    <li><a class="text-muted" href="#">Nosotros</a></li>
+                    <li><a class="text-muted" href="#">Servicios</a></li>
+                    <li><a class="text-muted" href="#">Blog</a></li>
+                    <li><a class="text-muted" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
